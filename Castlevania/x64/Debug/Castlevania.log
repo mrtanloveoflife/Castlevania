@@ -1,0 +1,92 @@
+﻿  Background.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Bat.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Bat2.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BreakableBrick.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Brick.cpp
+  Camera.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Candle.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  CassiopeiaMini.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  debug.cpp
+  Door.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Effect.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Enemy.cpp
+  Game.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(78): error C2065: 'GWL_HINSTANCE': undeclared identifier
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(258): warning C4305: '=': truncation from '__int64' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(259): warning C4305: '=': truncation from '__int64' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(269): warning C4305: '=': truncation from '__int64' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(270): warning C4305: '=': truncation from '__int64' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(280): warning C4305: '=': truncation from 'double' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(281): warning C4305: '=': truncation from 'double' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(282): warning C4305: '=': truncation from '__int64' to 'float'
+e:\nam 3\nmptg\castlevania_final\castlevania\game.cpp(283): warning C4305: '=': truncation from '__int64' to 'float'
+  GameObject.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+  Head.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Item.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Main.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Medusa.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  MeleeWeapon.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Merman.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...
+  Compiling...
+  MovingBlock.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Panther.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  PhantomBat.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Projectile.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  RangedWeapon.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Simon.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Skull.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SnakeHead.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Soldier.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Sound.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Sprites.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+  Stairs.cpp
+  Stats.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Textures.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+  Thorn.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  WinScene.cpp
+  Zombie.cpp
+e:\nam 3\nmptg\castlevania_final\castlevania\sound.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

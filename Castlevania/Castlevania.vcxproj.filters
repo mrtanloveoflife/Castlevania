@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{58c31e57-16ee-4048-9fec-c1f2ff836aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Creep">
+      <UniqueIdentifier>{7b5295c6-c2e6-43e6-bad7-210b39e29ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Boss">
+      <UniqueIdentifier>{5b6353ae-3e77-431d-acc7-8ec6bb657c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{6fd264e8-1a8d-4c0a-bdcc-8e6ea99fde0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Block">
+      <UniqueIdentifier>{55d3474e-3703-4bbd-8a1b-dd6567cd0a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Door">
+      <UniqueIdentifier>{b9ad34d9-70be-4be3-ab11-200491058e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Other Objects">
+      <UniqueIdentifier>{043850f6-5e1f-4a9b-b4d3-45ecd560e8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Simon">
+      <UniqueIdentifier>{bea6a950-bb1d-4d6c-a327-4dbeda0f4c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{997b2f3a-c26f-4d35-a6b3-cc1b917b655a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7b534903-19bc-4e69-877e-a788202dfdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background">
+      <UniqueIdentifier>{16f7a9b0-0619-4ee5-bb83-ca3ab1f17668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9129681a-243c-4034-9bd7-2fd90ce3d159}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bat.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat2.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="CassiopeiaMini.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Merman.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Panther.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeHead.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Thorn.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Enemy\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Medusa.h">
+      <Filter>Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomBat.h">
+      <Filter>Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableBrick.h">
+      <Filter>GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingBlock.h">
+      <Filter>GameObject\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>GameObject\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle.h">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>GameObject\Simon</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedWeapon.h">
+      <Filter>GameObject\Simon</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon.h">
+      <Filter>GameObject\Simon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat2.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="CassiopeiaMini.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Merman.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Panther.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeHead.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Thorn.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Enemy\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Medusa.cpp">
+      <Filter>Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomBat.cpp">
+      <Filter>Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableBrick.cpp">
+      <Filter>GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingBlock.cpp">
+      <Filter>GameObject\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>GameObject\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle.cpp">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>GameObject\Other Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>GameObject\Simon</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedWeapon.cpp">
+      <Filter>GameObject\Simon</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon.cpp">
+      <Filter>GameObject\Simon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Castlevania.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

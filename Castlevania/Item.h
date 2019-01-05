@@ -1,0 +1,65 @@
+#pragma once
+#include "Background.h"
+#include "Brick.h"
+
+#define ITEM_TYPE_WHIP_UPGRADE			0
+#define ITEM_TYPE_DAGGER				1
+#define ITEM_TYPE_HEART_BIG				2
+#define ITEM_TYPE_HEART_SMALL			3
+#define ITEM_TYPE_MONEY_BAG_400			4
+#define ITEM_TYPE_MONEY_BAG_700			5
+#define ITEM_TYPE_HOLY_WATER			6
+#define ITEM_TYPE_CROSS					7
+#define ITEM_TYPE_STOPWATCH				8
+#define ITEM_TYPE_INVINCIBILITY_POTION	9
+#define ITEM_TYPE_AXE					10
+#define ITEM_TYPE_POT_ROAST				11
+#define ITEM_TYPE_CRYSTAL				12
+#define ITEM_TYPE_BOOMMERANG			13
+#define ITEM_TYPE_DOUBLE_THROW			14
+
+#define ITEM_TYPE_WHIP_UPGRADE_BBOX_WIDTH			17
+#define ITEM_TYPE_WHIP_UPGRADE_BBOX_HEIGHT			17
+#define ITEM_TYPE_DAGGER_BBOX_WIDTH					17
+#define ITEM_TYPE_DAGGER_BBOX_HEIGHT				9
+#define ITEM_TYPE_HEART_BIG_BBOX_WIDTH				12
+#define ITEM_TYPE_HEART_BIG_BBOX_HEIGHT				10
+#define ITEM_TYPE_HEART_SMALL_BBOX_WIDTH			8
+#define ITEM_TYPE_HEART_SMALL_BBOX_HEIGHT			8
+#define ITEM_TYPE_MONEY_BAG_BBOX_WIDTH				14
+#define ITEM_TYPE_MONEY_BAG_BBOX_HEIGHT				15
+#define ITEM_TYPE_HOLY_WATER_BBOX_WIDTH				16
+#define ITEM_TYPE_HOLY_WATER_BBOX_HEIGHT			16
+#define ITEM_TYPE_CROSS_BBOX_WIDTH					16
+#define ITEM_TYPE_CROSS_BBOX_HEIGHT					17
+#define ITEM_TYPE_STOPWATCH_BBOX_WIDTH				15
+#define ITEM_TYPE_STOPWATCH_BBOX_HEIGHT				16
+#define ITEM_TYPE_INVINCIBILITY_POTION_BBOX_WIDTH	13
+#define ITEM_TYPE_INVINCIBILITY_POTION_BBOX_HEIGHT	16
+#define ITEM_TYPE_AXE_BBOX_WIDTH					15
+#define ITEM_TYPE_AXE_BBOX_HEIGHT					14
+#define ITEM_TYPE_POT_ROAST_BBOX_WIDTH				16
+#define ITEM_TYPE_POT_ROAST_BBOX_HEIGHT				13
+#define ITEM_TYPE_CRYSTAL_BBOX_WIDTH				14
+#define ITEM_TYPE_CRYSTAL_BBOX_HEIGHT				16
+#define ITEM_TYPE_BOOMERANG_BBOX_WIDTH				15
+#define ITEM_TYPE_BOOMERANG_BBOX_HEIGHT				14
+#define ITEM_TYPE_DOUBLE_THROW_BBOX_WIDTH			14
+#define ITEM_TYPE_DOUBLE_THROW_BBOX_HEIGHT			14
+
+#define ITEM_SPRITES_PATH	"Objects\\Item Sprites.txt"
+
+class Item :public CGameObject
+{
+	int type;
+
+public:
+	static void LoadItemTextures(int ID_TEX_ITEMS, LPCWSTR ITEMS_TEXTURE_PATH, D3DCOLOR ITEMS_TEXTURE_BACKGROUND_COLOR);
+
+	Item(float x, float y, int type);
+	int GetType() { return type; }
+
+	virtual void GetBoundingBox(float &left, float &top, float &right, float &bottom);
+	virtual void Update(DWORD dt, vector<vector<LPGAMEOBJECT>> *coObjects = NULL);
+	virtual void Render();
+};

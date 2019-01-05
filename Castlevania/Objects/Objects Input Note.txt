@@ -1,0 +1,16 @@
+First line: n objects
+next lines: object info
+
+1/ Candles type 1: x, y, item type it carries
+2/ Candles type 2: x, y, item type it carries
+3/ Brick: left, top, right, bottom
+4/ Stairs: stairs state(0,1), left upstair, top upstairs, right upstairs, bottom upstairs, left downstairs, top downstairs, right downstairs, bottom downstairs
+5/ Panther: x, y
+6/ Door: x, y, nx
+7/ Soldier: x, y, xmin, xmax
+8/ Bat 2
+9/ Moving Block
+10/ SnakeHead
+11/ Thorn
+12/ Breakable Brick: x, y, type(0 big, 1 small_1, 2 small_2, 3 orange), item type it carries
+13/ Read Skull x, y

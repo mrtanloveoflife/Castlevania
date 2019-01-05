@@ -1,0 +1,6 @@
+﻿  Main.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\nam 3\nmptg\castlevania_final\castlevania\game.h(7): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+e:\nam 3\nmptg\castlevania_final\castlevania\main.cpp(679): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Castlevania.vcxproj -> E:\Nam 3\NMPTG\Castlevania_final\Debug\Castlevania.exe

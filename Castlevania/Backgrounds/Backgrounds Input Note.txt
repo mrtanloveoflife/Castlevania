@@ -1,0 +1,3 @@
+first line: n_array
+next n lines: n_element
+	      next n_element/16 lines: each line contains  16 element of array
